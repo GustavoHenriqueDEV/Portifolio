@@ -1,0 +1,77 @@
+.body {
+  background-image: url(assets/teste1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+}
+.logos {
+  width: 800px;
+}
+.logo {
+  display: flex;
+  height: 5%;
+  width: 5%;
+  display: inline-block;
+}
+
+.img {
+  border-radius: 120px;
+}
+
+.container-a {
+  margin-top: 40px;
+  margin-left: 30px;
+  display: inline-block;
+  width: 30%;
+  height: 30%;
+}
+.container-b {
+  color: white;
+  font-size: 20px;
+  font-family: "garamond", "Helvetica Neue", "Helvetica";
+  margin-top: 100px;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.btn,
+.btn2 {
+  width: 130px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  color: rgba(255, 255, 255, 0.9);
+  background: linear-gradient(-45deg, #ffa63d, #ff3d77, #338aff, #3cf0c5);
+  background-size: 600%;
+  -webkit-animation: anime 16s linear infinite;
+  animation: anime 16s linear infinite;
+}
+.btn2 {
+  position: absolute;
+  margin-top: -70px;
+  z-index: -1;
+  filter: blur(30px);
+  opacity: 0.8;
+}
+@-webkit-keyframes anime {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes anime {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
